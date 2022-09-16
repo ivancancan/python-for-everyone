@@ -9,7 +9,7 @@
 # when you are testing below enter mbox-short.txt as the file name.
 
 # Use the file name mbox-short.txt as the file name
-fname = input("Enter file name: ")
+fname = input("Enter file name:  ")
 fh = open(fname)
 count = 0
 avalue = 0
