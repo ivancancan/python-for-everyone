@@ -4,6 +4,7 @@
 # After the dictionary is produced, the program reads through the dictionary using a maximum loop to find the most prolific committer.
 
 name = input("Enter file:")
+if len(name) < 1 : name = "mbox-short.txt"
 handle = open(name)
 
 counts = dict()
