@@ -15,3 +15,4 @@ lst = sorted(lst, reverse=True)
 
 for val, key in lst[:10]:
     print(key,val)
+
